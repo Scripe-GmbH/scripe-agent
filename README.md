@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/logo.png" alt="Scripe" width="96" />
+  <img src="assets/logo.svg" alt="Scripe" width="96" />
 </p>
 
 <h1 align="center">Scripe for AI agents</h1>
