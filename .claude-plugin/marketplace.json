@@ -1,0 +1,16 @@
+{
+  "name": "scripe-agent",
+  "owner": { "name": "Scripe GmbH", "email": "hello@scripe.io" },
+  "metadata": {
+    "description": "Scripe for AI agents: plan, write, schedule and measure LinkedIn posts for your team.",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "scripe",
+      "description": "Plan, write, schedule and measure your team's LinkedIn posts in Scripe from your AI agent: content calendars for every profile and company page, posts in each person's voice, scheduling and LinkedIn analytics, through the hosted Scripe MCP server (OAuth, no install).",
+      "source": "./",
+      "strict": false
+    }
+  ]
+}

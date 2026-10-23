@@ -1,0 +1,5 @@
+{
+  "mcpServers": {
+    "scripe": { "type": "http", "url": "https://mcp.scripe.io/mcp" }
+  }
+}

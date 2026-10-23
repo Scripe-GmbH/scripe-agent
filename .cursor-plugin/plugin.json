@@ -1,0 +1,26 @@
+{
+  "name": "scripe",
+  "displayName": "Scripe",
+  "version": "1.0.0",
+  "description": "Plan, write, schedule and measure your team's LinkedIn posts in Scripe from your AI agent: content calendars for every profile and company page, posts in each person's voice, scheduling and LinkedIn analytics, through the hosted Scripe MCP server (OAuth, no install).",
+  "author": {
+    "name": "Scripe GmbH",
+    "email": "hello@scripe.io"
+  },
+  "homepage": "https://scripe.io",
+  "repository": "https://github.com/Scripe-GmbH/scripe-agent",
+  "license": "MIT",
+  "logo": "assets/logo.svg",
+  "keywords": [
+    "scripe",
+    "linkedin",
+    "social-media-management",
+    "content-calendar",
+    "post-scheduling",
+    "linkedin-analytics",
+    "b2b-marketing",
+    "agencies",
+    "mcp"
+  ],
+  "skills": ["./skills/scripe"]
+}

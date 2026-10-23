@@ -1,0 +1,11 @@
+{
+  "name": "scripe",
+  "version": "1.0.0",
+  "description": "Plan, write, schedule and measure your team's LinkedIn posts in Scripe from your AI agent: content calendars for every profile and company page, posts in each person's voice, scheduling and LinkedIn analytics, through the hosted Scripe MCP server (OAuth, no install). Bundles the scripe skill and the hosted Scripe MCP server.",
+  "mcpServers": {
+    "scripe": {
+      "httpUrl": "https://mcp.scripe.io/mcp",
+      "description": "Official Scripe MCP server (hosted, Streamable HTTP). Gemini CLI opens a browser to sign in to Scripe on first use."
+    }
+  }
+}
