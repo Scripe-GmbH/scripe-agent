@@ -9,6 +9,9 @@
   },
   "homepage": "https://scripe.io/integrations/mcp-api",
   "privacyPolicyUrl": "https://scripe.io/privacy",
+  "termsOfServiceUrl": "https://scripe.io/terms",
+  "supportUrl": "https://scripe.io/contact",
+  "documentationUrl": "https://scripe.io/developers/api/v1/mcp",
   "repository": "https://github.com/Scripe-GmbH/scripe-agent",
   "license": "MIT",
   "keywords": [
