@@ -89,6 +89,15 @@ Publishing a post right away, deleting anything and sending a review request
 each ask for your confirmation first. Scripe never likes, comments on or
 reposts other people's LinkedIn posts for you.
 
+## Network and credentials
+
+This package contains no code, hooks, scripts or binaries: only Markdown and
+JSON manifests. It connects one network endpoint, the hosted MCP server
+`https://mcp.scripe.io/mcp`, whose OAuth authorization server is
+`https://scripe.io`. No API key, token or environment variable is needed or
+read: the host signs in with OAuth 2.1 (Dynamic Client Registration + PKCE)
+and stores the token itself.
+
 ## Links
 
 - MCP docs: https://scripe.io/developers/api/v1/mcp
