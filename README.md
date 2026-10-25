@@ -27,6 +27,60 @@ You need a Scripe account. Every plan, Free included, can connect;
 scheduling and publishing need a paid plan or a trial.
 [Start free](https://scripe.io).
 
+## The Scripe MCP server
+
+Scripe's MCP server lets an AI assistant work in your Scripe workspace: plan,
+draft, schedule and analyze LinkedIn posts for every profile and company page
+on your team. It is the server listed in the MCP Registry as `io.scripe/mcp`.
+
+| | |
+|---|---|
+| Endpoint | `https://mcp.scripe.io/mcp` |
+| Transport | Streamable HTTP (remote, hosted by Scripe; nothing to install or run) |
+| Auth | OAuth 2.1 with Dynamic Client Registration and PKCE. Your client registers itself and opens a Scripe sign-in on first use; no API key |
+| Docs | https://scripe.io/developers/api/v1/mcp |
+
+What it can do:
+
+- **Plan**: see the calendar and open slots for every profile, plan a week or a
+  month of posts across the team, and turn ideas into planned posts.
+- **Draft**: write and edit posts in each person's own voice, using their past
+  posts, positioning and your knowledge base.
+- **Schedule and publish**: schedule a post for a time, or publish it now
+  (publishing now asks you to confirm first).
+- **Analyze**: read LinkedIn results per post, profile and period, and which
+  formats and topics performed.
+- **Organize**: ideas, labels, campaigns, media and brand settings.
+
+### VS Code and GitHub Copilot
+
+Add the server to `.vscode/mcp.json` in your workspace (or to your user MCP
+configuration with the **MCP: Open User Configuration** command):
+
+```json
+{
+  "servers": {
+    "scripe": {
+      "type": "http",
+      "url": "https://mcp.scripe.io/mcp"
+    }
+  }
+}
+```
+
+Start the server from the file or the **MCP: List Servers** command. VS Code
+opens a browser window to sign in to Scripe and authorize access; pick
+Read-only or Full access there. Then use Copilot Chat in **Agent** mode, where
+the Scripe tools appear in the tools picker.
+
+### Other MCP clients
+
+Any client that supports remote Streamable HTTP servers with OAuth connects
+with the URL alone: add `https://mcp.scripe.io/mcp` as a remote or custom
+server. `mcp.json` in this repository holds the same entry in the
+`mcpServers` format many clients read. Setup per host is below and in
+[skills/scripe/references/connect.md](skills/scripe/references/connect.md).
+
 ## Install
 
 ### Hermes Agent
@@ -82,6 +136,9 @@ Setup for every host: [skills/scripe/references/connect.md](skills/scripe/refere
 - "Turn yesterday's customer call into three post ideas."
 - "How did my posts perform last month, and which formats worked?"
 - "Schedule the draft about pricing for Tuesday 9:00."
+- "Which open slots does our company page have this month? Fill them with
+  drafts from our For You ideas."
+- "Show me everything waiting for my review."
 
 ## What it will not do
 
