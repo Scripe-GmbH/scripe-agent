@@ -1,3 +1,5 @@
+[![AgentShield Security](https://merx.help/badge/A+.svg)](https://merx.help/shield)
+
 <p align="center">
   <img src="assets/logo.svg" alt="Scripe" width="96" />
 </p>
