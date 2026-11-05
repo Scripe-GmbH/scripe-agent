@@ -69,8 +69,8 @@ Settings → Connectors → Add custom connector, URL
 
 ## ChatGPT
 
-Settings → Apps & Connectors → add a connector with the URL
-`https://mcp.scripe.io/mcp`.
+Add the Scripe plugin from its listing, then approve the consent screen:
+https://chatgpt.com/plugins/plugin_asdk_app_6adbb86308bc8191909573a814c073fe
 
 ## Codex
 
