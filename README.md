@@ -123,7 +123,11 @@ npx skills add Scripe-GmbH/scripe-agent
 
 and add `https://mcp.scripe.io/mcp` as a remote MCP server in that agent.
 
-### Claude, ChatGPT and other MCP clients
+### ChatGPT
+
+Add the [Scripe plugin](skills/scripe/references/connect.md#chatgpt).
+
+### Claude and other MCP clients
 
 Add a custom connector with the URL `https://mcp.scripe.io/mcp`.
 
